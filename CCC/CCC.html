@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en_EN">
+	<title>Airbus ABC CCC</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8">
+        <link rel="stylesheet" href="CCC.css">
+        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    </head>
+    <body>
+        
+		<h1>Airbus ABC CCC</h1>
+		
+		<div id="ccc">
+			<h2>Please answer these questions:</h2>
+
+			<div id="ccc_questions">
+			
+				<p>
+					{{ ccc_0_question }}
+					<select id="ccc_0_answer" v-model="ccc_0_answer" required>
+					<option value="">-- Please choose an option --</option>
+						<option value="dog">Dog</option>
+						<option value="cat">Cat</option>
+						<option value="hamster">Hamster</option>
+						<option value="parrot">Parrot</option>
+						<option value="spider">Spider</option>
+						<option value="goldfish">Goldfish</option>
+					</select>
+				</p>
+			
+				<p>
+					{{ ccc_1_question }}  
+					<input type="radio" id="ccc_1_yes" value="Yes" name="ccc_1" v-model="ccc_1_answer">
+					<label for="ccc_1_yes" class="answer">Yes</label>
+					<input type="radio" id="ccc_1_no"  value="No"  name="ccc_1" v-model="ccc_1_answer">
+					<label for="ccc_1_no" class="answer">No</label>
+				</p>
+				
+
+				
+				<p>
+					{{ ccc_5_question }}
+					<input id="ccc_5_answer_text" name="ccc_5_answer" v-model="ccc_5_answer" required>
+				</p>
+				
+				<button v-on:click="resetAnswers">Reset Answers</button>
+
+			</div>
+        
+			<h2>Copy/paste the following in ticket resolution:</h2>
+			<div id="ccc_message">
+				<p>
+				{{ ccc_0_answer }}<br/><br/>
+				{{ ccc_1_question }} <span class="answer">{{ ccc_1_answer }}</span><br/>
+				{{ ccc_2_question }} <span class="answer">{{ ccc_2_answer }}</span><br/>
+				{{ ccc_3_question }} <span class="answer">{{ ccc_3_answer }}</span><br/>
+				{{ ccc_4_question }} <span class="answer">{{ ccc_4_answer }}</span><br/>
+				{{ ccc_5_question }} <span class="answer">{{ ccc_5_answer }}</span><br/>
+				</p>
+			</div>
+		</div>
+		
+        <script src="CCC.js"></script>
+    </body>
+</html>
