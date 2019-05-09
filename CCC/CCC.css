@@ -3,6 +3,11 @@ html, body {
     padding: 0;
 }
 
+h1, h2 {
+	color: #0066A1;
+}
+
 span.answer, label.answer {
+	color: #0066A1;	
 	font-weight: bold;
 }
