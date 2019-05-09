@@ -11,3 +11,9 @@ span.answer, label.answer {
 	color: #0066A1;	
 	font-weight: bold;
 }
+
+div.resolution {
+	border-width: 1px;
+	border-style: solid;
+	border-color: #0066A1;
+}
