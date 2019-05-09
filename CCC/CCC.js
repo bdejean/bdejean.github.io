@@ -1,6 +1,7 @@
 var app = new Vue({
   el: '#ccc',
   data: {
+	ccc_0_question: 'Resolution :',
 	ccc_0_answer: '',
 	ccc_1_question: 'a) Resolved with workaround ?',
 	ccc_1_answer: '',
