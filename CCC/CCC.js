@@ -8,7 +8,7 @@ var app = new Vue({
 	ccc_2_answer: '',
 	ccc_3_question: 'c) Root Cause(Additional to work info summary) :',
 	ccc_3_answer: '',
-	ccc_4_question: 'If it’s a SD ticket, ABC resolver must confirm (If needed) with the user that the incident has been resolved or else if analyst is sure about the resolution he/she can resolve the incident :',
+	ccc_4_question: 'd) If it’s a SD ticket, ABC resolver must confirm (If needed) with the user that the incident has been resolved or else if analyst is sure about the resolution he/she can resolve the incident :',
 	ccc_4_answer: '',
 	ccc_5_question: 'e) Any related ticket numbers (other incidents and/or changes) ?',
 	ccc_5_answer: '',
