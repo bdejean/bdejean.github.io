@@ -24,7 +24,7 @@ var app = new Vue({
 		this.ccc_1_answer = 'Yes'
 		this.ccc_2_answer = ''
 		this.ccc_3_answer = ''
-		this.ccc_4_answer = 'With user confirmation'
+		this.ccc_4_answer = 'With confirmation from user'
 		this.ccc_5_answer = 'No'
 	}
   },
