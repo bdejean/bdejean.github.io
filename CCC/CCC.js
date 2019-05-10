@@ -20,7 +20,7 @@ var app = new Vue({
     },
 	
 	resetAnswers: function() {
-		this.ccc_0_answer = ''
+		this.ccc_0_answer = '0560 CAUSE - ROOT CAUSE IDENTIFIED'
 		this.ccc_1_answer = 'Yes'
 		this.ccc_2_answer = ''
 		this.ccc_3_answer = ''
